@@ -1,0 +1,7 @@
+export { default as banner } from './banner/banner'
+export { default as benefits } from './benefits/benefits'
+export { default as benefit } from './benefit/benefit'
+export { default as features } from './features/features'
+export { default as feature } from './feature/feature'
+export { default as vars_wrapper } from './vars_wrapper/vars_wrapper'
+export { default as app_wrapper } from './app_wrapper/app_wrapper'

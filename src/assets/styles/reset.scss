@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+:where(#app) {
+  min-height: 100vh;
+
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+
+  table {
+    caption-side: bottom;
+    border-collapse: collapse;
+  }
+
+  input,
+  button,
+  *:focus-visible {
+    background: none;
+    outline: none;
+    border: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
